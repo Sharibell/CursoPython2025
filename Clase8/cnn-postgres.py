@@ -12,17 +12,17 @@ import psycopg2
 # Parámetros de conexión
 host = "localhost"        # o la IP del servidor
 port = "5432"             # puerto por defecto
-database = "jaguarete"
+database = "BDPython"
 user = "postgres"
-password = "unida123"
+password = "kobu2407"
 
 try:
     # Crear la conexión
     conn = psycopg2.connect(
         host=host,
         port=port,
-        dbname=database,
         user=user,
+        dbname=database,
         password=password
     )
 
